@@ -1,0 +1,27 @@
+1-Landing page (home)
+menu
+presentation du salon(concept)(service)(estheticienne)
+horaire d'ouverture
+adresse -> plan du site (carte)
+//Dalla (1jours)
+
+2-reservation
+calendrier(creation de rdv/annulation) (pluggin fullcalendar)
+//(3jours minimun)
+
+
+3-BOUTIQUE (presentation des produits à vendre)
+->page produit (1 jour)
+->panier -> livraison(nom/adresse/telephone/email) (1 journee)
+->paiement (pluggin stripe) (2 jours)
+//2 ressources (4 jours total)
+
+back-office
+creation de compte (inscription)
+login -> page profil
+page connexion
+espace commande (recapitulatif de la commande)
+//(2 jours)
+
+1 MARS 2021 STOP FONCTIONNALITES
+hebergement -> mis en production
