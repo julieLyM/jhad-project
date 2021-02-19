@@ -1,0 +1,61 @@
+****user:
+lastname
+firstname
+birthday
+email
+phone
+password
+image user
+createdAt
+updatedAt
+deletedAt
+role(admin/estheticienne/client")
+numero de rue
+nom de rue
+cp
+ville
+
+
+***category 
+name (prestation/produit)
+alias
+description
+
+
+
+***product: (creme,vernis,savon,gommage)
+name
+price
+image
+description
+slug(alias)
+stock
+categorie(product/service)
+createdAt
+updatedAt
+deletedAt
+time
+
+
+***commande
+amount
+status(etat de la commande)
+createdAt
+updatedAt
+deletedAt
+(relation many to many produit)
+
+***detail_commande(panier)(pas stocké dans la bd)
+quantity
+price
+relation(commande/produit/adresse/user)
+createdAt
+updatedAt
+deletedAt
+
+
+
+
+
+
+
